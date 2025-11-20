@@ -6,39 +6,27 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <banner class="banner">
-            <ul>
-                <li>
-                    <a href="setup.html">
-                        Setup<br>
-                    </a>
-                </li>
-                <li>
-                    <a href="commands.html">
-                        Commandes<br>
-
-                    </a>
-                </li>
-                <li>
-                    <a href="workflow.html">
-                        Workflow<br>
-
-                    </a>
-                </li>
-            </ul>
-        </banner>
-        <h1>Le workflow Git</h1>
-        <p>
-            Le workflow Git basé sur les feature branches commence sur la branche principale, généralement appelée main. Lorsqu'un développeur veut ajouter une fonctionnalité ou corriger un bug, il crée une branche dédiée. Il y réalise ses modifications et ses commits sans toucher au code principal.<br><br>Une fois le travail terminé, il pousse sa branche vers GitHub et ouvre une pull request. Cette pull request permet de présenter les changements et de préparer leur intégration. Après validation, la branche est fusionnée (merge) dans la branche main, et la branche de développement peut ensuite être supprimée.
-        </p>
-        <h2>Les avantages</h2>
-        <ol>
-            <li>Séparer clairement le travail en cours du code principal.</li>
-            <li>Faciliter le travail en parallèle entre plusieurs développeurs.</li>
-            <li>Permettre de tester une fonctionnalité sans toucher à la branche principale.</li>
-            <li>Garder un historique propre et organisé.</li>
-            <li>Rendre les revues de code plus claires via les pull requests.</li>
-            <li>Détecter plus facilement les conflits ou problèmes avant le merge.</li>
-        </ol>
+        <header>
+            <nav class="banner">
+                <a href="setup.html" class="banner_link">Setup</a>
+                <a href="commands.html" class="banner_link">Commandes</a>
+                <a href="workflow.html" class="banner_link">Workflow</a>
+            </nav>
+        </header>
+        <section class="black_zone">
+            <h1>Le workflow Git</h1>
+            <p>
+                Le workflow Git basé sur les feature branches commence sur la branche principale, généralement appelée main. Lorsqu'un développeur veut ajouter une fonctionnalité ou corriger un bug, il crée une branche dédiée. Il y réalise ses modifications et ses commits sans toucher au code principal.<br><br>Une fois le travail terminé, il pousse sa branche vers GitHub et ouvre une pull request. Cette pull request permet de présenter les changements et de préparer leur intégration. Après validation, la branche est fusionnée (merge) dans la branche main, et la branche de développement peut ensuite être supprimée.
+            </p>
+            <h2>Les avantages</h2>
+            <ol>
+                <li>Séparer clairement le travail en cours du code principal.</li>
+                <li>Faciliter le travail en parallèle entre plusieurs développeurs.</li>
+                <li>Permettre de tester une fonctionnalité sans toucher à la branche principale.</li>
+                <li>Garder un historique propre et organisé.</li>
+                <li>Rendre les revues de code plus claires via les pull requests.</li>
+                <li>Détecter plus facilement les conflits ou problèmes avant le merge.</li>
+            </ol>
+        </section>
     </body>
 </html>
