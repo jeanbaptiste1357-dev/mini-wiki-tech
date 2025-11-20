@@ -1,76 +1,64 @@
 <!DOCTYPE html> 
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <title class="gc_title">Commandes Git Essentielles</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <header class="banner">
-        <ul>
-            <li>
-                <a href="setup.html">
-                    Setup<br>
-                </a>
-            </li>
-            <li>
-                <a href="commands.html">
-                    Commandes<br>
-                    
-                </a>
-            </li>
-            <li>
-                <a href="workflow.html">
-                    Workflow<br>
-                    
-                </a>
-            </li>
-        </ul>
-    </header>
-
-    <h1 class="gc_list_title">Commandes Git Essentielles</h1>
-    <list class="gc_list">
-        git status<br> 
-        git add "fichier"<br>
-        git commit -m "message"<br>
-        git push<br>
-        git pull<br>
-        git checkout -b "branche"<br>
-    </list>
     
-    <br><br><br>
-
-    <table class="gc_table"> 
-        <tr>
-            <th>Commande</th>
-            <th>Description</th>
-        </tr>
-        <tr>
-            <td>git status</td>
-            <td>Affiche l'état des fichiers dans le répertoire de travail et l'index.</td>
-        </tr>
-        <tr>
-            <td>git add "fichier"</td>
-            <td>Ajoute un fichier spécifique à l'index pour le prochain commit.</td>
-        </tr>
-        <tr>
-            <td>git commit -m "message"</td>
-            <td>Enregistre les modifications dans l'historique avec un message descriptif.</td>
-        </tr>
-        <tr>
-            <td>git push</td>
-            <td>Envoie les commits locaux vers le dépôt distant.</td>
-        </tr>
-        <tr>
-            <td>git pull</td>
-            <td>Récupère les modifications du dépôt distant et les fusionne avec la branche locale.</td>
-        </tr>
-        <tr>
-            <td>git checkout -b "branche"</td>
-            <td>Crée une nouvelle branche et bascule dessus si elle n'existe pas.</td>
-        </tr>
-    </table>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title class="gc_title">Commandes Git Essentielles</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <header>
+            <nav class="banner">
+                <a href="setup.html" class="banner_link">Setup</a>
+                <a href="commands.html" class="banner_link">Commandes</a>
+                <a href="workflow.html" class="banner_link">Workflow</a>
+            </nav>
+        </header>
+        <section class="black_zone">
+            
+            <h1 class="gc_list_title">Commandes Git Essentielles</h1>
+            <list class="gc_list">
+                git status<br> 
+                git add "fichier"<br>
+                git commit -m "message"<br>
+                git push<br>
+                git pull<br>
+                git checkout -b "branche"<br>
+            </list>
+            
+            <br><br><br>
+            
+            <table class="gc_table"> 
+                <tr>
+                    <th>Commande</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>git status</td>
+                    <td>Affiche l'état des fichiers dans le répertoire de travail et l'index.</td>
+                </tr>
+                <tr>
+                    <td>git add "fichier"</td>
+                    <td>Ajoute un fichier spécifique à l'index pour le prochain commit.</td>
+                </tr>
+                <tr>
+                    <td>git commit -m "message"</td>
+                    <td>Enregistre les modifications dans l'historique avec un message descriptif.</td>
+                </tr>
+                <tr>
+                    <td>git push</td>
+                    <td>Envoie les commits locaux vers le dépôt distant.</td>
+                </tr>
+                <tr>
+                    <td>git pull</td>
+                    <td>Récupère les modifications du dépôt distant et les fusionne avec la branche locale.</td>
+                </tr>
+                <tr>
+                    <td>git checkout -b "branche"</td>
+                    <td>Crée une nouvelle branche et bascule dessus si elle n'existe pas.</td>
+                </tr>
+            </table>
+        </section>
+    </body>
 </html>
