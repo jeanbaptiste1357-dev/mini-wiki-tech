@@ -2,4 +2,6 @@
 membres : Cyril Mazauric, Nathan, Jean-Baptiste
 rôles : Cyril : git commands
 rôles : Jean-Baptiste : intro setup
-rôles : Nathan : tools-workflow
+rôles : Nathan : tools-workflowz
+
+Ce wiki présente le workflow Git et les outils associés.
