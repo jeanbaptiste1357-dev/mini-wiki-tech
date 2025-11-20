@@ -20,14 +20,14 @@ body {
 
 .black_zone{
     width: 70%;
-    position: relative;
-    left: 15%;
+    position: center;
+    margin: 15% auto;
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
     margin-top: 4%;
     height: 90%;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 20px;
 }
 
@@ -75,4 +75,21 @@ body {
 h1 {
     text-align: center;
     font-size: 50px;
+}
+
+.gc_table {
+    width: 100%;
+    border-collapse: collapse; /* fusionne les bordures */
+    margin-top: 20px;
+}
+
+.gc_table th,
+.gc_table td {
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 8px 12px;
+}
+
+.gc_table th {
+    background: rgba(255,255,255,0.06);
+    text-align: left;
 }
