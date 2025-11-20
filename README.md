@@ -3,3 +3,5 @@ membres : Cyril Mazauric, Nathan, Jean-Baptiste
 rôles : Cyril : git commands
 rôles : Jean-Baptiste : intro setup
 rôles : Nathan : tools-workflow
+
+Ce wiki regroupe les commandes Git Utiles.
